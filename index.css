@@ -1,0 +1,147 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    
+}
+
+.content1{
+    height: 100vh;
+    width : 100%;
+    border: 1px solid black;
+    background-color: #3a4858;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div1
+{
+    height : 80%;
+    width : 100%;
+    margin-left: 50px;
+    /* border: 1px solid black; */
+    background-image: url("fixit.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+
+}
+.div2
+{
+    background-color: #0BC2B4;
+    height : 80%;
+    width : 70%;
+    margin-right: 50px;
+    /* border: 1px solid black; */
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    
+    border-radius: 10px;
+    text-align: center;
+    margin-left: -30px;
+    padding: 60px 32px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.content header {
+    color: rgb(7, 7, 7);
+    font-size: 33px;
+    font-weight: 600;
+    margin: 0 0 35px 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.content header:hover {
+    color:#0BC2B4;
+    transition: 0.5s;
+}
+.field{
+    position: relative;
+    height: 45px;
+    width: 100%;
+    display: flex;
+    background-color: #0BC2B4;
+}
+.field span{
+    color: rgb(255, 255, 255);
+    width: 40px;
+    line-height: 45px;
+}
+.field input{
+    height:100%;
+    width:100%;
+    background: transparent ;
+    border: none;
+    outline:none;
+    color:rgb(243, 240, 240);;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.show{
+    margin-top: 2px; 
+}
+.show{
+    position: absolute;
+    right: 20px;
+    font-size: 13px;
+    font-weight: 700;
+    color:#0BC2B4;
+    display:none;
+    cursor:pointer;
+    font-family: "montserrat", sans-serif;
+}
+ .pass-key{ /*pass-key:valid ~ .show */
+    display:block;
+}
+.pass{
+    text-align: left;
+    margin:10px 0;
+}
+.pass a {
+    color: #0C2A43;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.pass:hover a{
+    transition: .3s ease;
+    color:#0BC2B4;
+    text-decoration: underline;
+    font-size: 17px;
+    
+}
+
+.field input[type="submit"]{
+    background-color: #0BC2B4;
+    border: 1px solid #ffffff;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: .3s ease;
+}
+.field input[type="submit"]:hover {
+    background:#0BC2B4;
+    font-size: large;
+}
+.login{
+    color:white;
+    margin: 20px 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+i span{
+    margin-left: 8px; 
+     font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

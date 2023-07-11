@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+.content1{
+    height: 100vh;
+    width : 100vw;
+    background-color: #ed4545;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .div1
+  {
+    height : 60%;
+    width : 60%;
+    
+    /* border: 1px solid black; */
+    background-image: url("fixit2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    
+}
+.hero{
+    margin-top: 30px;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: #fff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+.hero a{
+    
+    text-decoration: none;
+    color:#0d2b45;
+    transition: all 0.3s ease;
+}
+
+.hero:hover{
+    margin-top: 30px;
+    height: 35px;
+    width: 115px;
+    border-radius: 30px;
+    background-color: #0d2b45; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero a:hover{
+    
+    text-decoration: none;
+    color:#fff;
+}
